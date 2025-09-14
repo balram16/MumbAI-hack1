@@ -251,6 +251,7 @@ export default function SignupPage() {
                       placeholder="e.g., Guitar playing"
                       value={currentSkill.title}
                       onChange={(e) => setCurrentSkill({...currentSkill, title: e.target.value})}
+                      // helo
                     />
                   </div>
                   <div className="w-1/3">
