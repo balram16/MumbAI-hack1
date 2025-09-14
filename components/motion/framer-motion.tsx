@@ -1,0 +1,70 @@
+"use client";
+
+// Import Framer Motion components
+import { motion, AnimatePresence, useMotionValue, useSpring } from "framer-motion";
+
+// Re-export all Framer Motion components with proper client-side handling
+export { motion, AnimatePresence, useMotionValue, useSpring };
+
+// Create dynamic imports for better client-side handling
+export const MotionDiv = motion.div;
+export const MotionSpan = motion.span;
+export const MotionButton = motion.button;
+export const MotionSection = motion.section;
+export const MotionArticle = motion.article;
+export const MotionHeader = motion.header;
+export const MotionFooter = motion.footer;
+export const MotionNav = motion.nav;
+export const MotionMain = motion.main;
+export const MotionAside = motion.aside;
+export const MotionForm = motion.form;
+export const MotionInput = motion.input;
+export const MotionTextarea = motion.textarea;
+export const MotionSelect = motion.select;
+export const MotionLabel = motion.label;
+export const MotionP = motion.p;
+export const MotionH1 = motion.h1;
+export const MotionH2 = motion.h2;
+export const MotionH3 = motion.h3;
+export const MotionH4 = motion.h4;
+export const MotionH5 = motion.h5;
+export const MotionH6 = motion.h6;
+export const MotionUl = motion.ul;
+export const MotionOl = motion.ol;
+export const MotionLi = motion.li;
+export const MotionA = motion.a;
+export const MotionImg = motion.img;
+export const MotionVideo = motion.video;
+export const MotionCanvas = motion.canvas;
+export const MotionSvg = motion.svg;
+export const MotionPath = motion.path;
+export const MotionCircle = motion.circle;
+export const MotionRect = motion.rect;
+export const MotionLine = motion.line;
+export const MotionPolygon = motion.polygon;
+export const MotionPolyline = motion.polyline;
+export const MotionEllipse = motion.ellipse;
+export const MotionG = motion.g;
+export const MotionDefs = motion.defs;
+export const MotionClipPath = motion.clipPath;
+export const MotionMask = motion.mask;
+export const MotionPattern = motion.pattern;
+export const MotionLinearGradient = motion.linearGradient;
+export const MotionRadialGradient = motion.radialGradient;
+export const MotionStop = motion.stop;
+export const MotionText = motion.text;
+export const MotionTspan = motion.tspan;
+export const MotionTextPath = motion.textPath;
+export const MotionUse = motion.use;
+export const MotionImage = motion.image;
+export const MotionSwitch = motion.switch;
+export const MotionSymbol = motion.symbol;
+export const MotionMarker = motion.marker;
+export const MotionMetadata = motion.metadata;
+export const MotionTitle = motion.title;
+export const MotionDesc = motion.desc;
+export const MotionForeignObject = motion.foreignObject;
+export const MotionView = motion.view;
+export const MotionAnimate = motion.animate;
+export const MotionScript = motion.script;
+export const MotionStyle = motion.style;
